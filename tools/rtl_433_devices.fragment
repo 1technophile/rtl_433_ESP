@@ -14,7 +14,6 @@
   DECL(auriol_afw2a1) \
   DECL(auriol_ahfl) \
   DECL(auriol_hg02832) \
-  DECL(blueline) \
   DECL(blyss) \
   DECL(brennenstuhl_rcs_2044) \
   DECL(bresser_3ch) \
@@ -31,6 +30,8 @@
   DECL(elro_db286a) \
   DECL(elv_em1000) \
   DECL(elv_ws2000) \
+  DECL(emos_e6016) \
+  DECL(emos_e6016_rain) \
   DECL(esperanza_ews) \
   DECL(eurochron) \
   DECL(fineoffset_WH2) \
@@ -74,9 +75,11 @@
   DECL(philips_aj7010) \
   DECL(prologue) \
   DECL(quhwa) \
+  DECL(regency_fan) \
   DECL(rftech) \
   DECL(rubicson) \
   DECL(rubicson_48659) \
+  DECL(rubicson_pool_48942) \
   DECL(s3318p) \
   DECL(silvercrest) \
   DECL(skylink_motion) \
@@ -99,5 +102,6 @@
   DECL(wt1024) \
   DECL(X10_RF) \
   DECL(x10_sec) \
+  DECL(yale_hsa) \
   /* Add new decoders here. */
-#define NUMOFDEVICES 101
+#define NUMOFDEVICES 105

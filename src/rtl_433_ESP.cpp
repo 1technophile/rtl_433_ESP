@@ -122,7 +122,7 @@ int rtl_433_ESP::unparsedSignals = 0;
 
 // RSSI Threshold and average calculation
 
-int rtl_433_ESP::averageRssi = 0;
+int rtl_433_ESP::averageRssi = MINRSSI;
 int rtl_433_ESP::rssiThresholdDelta = RSSI_THRESHOLD;
 
 int _totalRssi = 0;

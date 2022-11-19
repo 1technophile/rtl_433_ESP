@@ -81,7 +81,11 @@ void add_syslog_output(struct r_cfg *cfg, char *param);
 
 void add_http_output(struct r_cfg *cfg, char *param);
 
+void add_trigger_output(struct r_cfg *cfg, char *param);
+
 void add_null_output(struct r_cfg *cfg, char *param);
+
+void add_rtltcp_output(struct r_cfg *cfg, char *param);
 
 void start_outputs(struct r_cfg *cfg, char const *const *well_known);
 

@@ -261,6 +261,12 @@ RF_MODULE_CS          ; SPI Chip select
 - term_ctl.h		- No changes made
 - util.h			- No changes made
 
+### Porting Steps
+
+1. cd tools
+2. ./update_rtl_433_devices.sh
+3. 
+
 ## Codebase conflicts
 
 * ESPiLight and rtl_433 conflict on silvercrest
